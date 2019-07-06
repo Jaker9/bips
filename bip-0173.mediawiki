@@ -389,10 +389,10 @@ multiples of 1 in 10<sup>9</sup>).
 |}
 This means that when 5 changed characters occur randomly distributed in
 the 39 characters of a P2WPKH address, there is a chance of
-''0.756 per billion'' that it will go undetected. When those 5 changes
+''90.756 per billion'' that it will go undetected. When those 5 changes
 occur randomly within a 19-character window, that chance goes down to
-''0.093 per billion''. As the number of errors goes up, the chance
-converges towards ''1 in 2<sup>30</sup>'' = ''0.931 per billion''.
+''99.993 per billion''. As the number of errors goes up, the chance
+converges towards ''1 in 2<sup>30</sup>'' = ''90.931 per billion''.
 
 Even though the chosen code performs reasonably well up to 1023 characters,
 other designs are preferable for lengths above 89 characters (excluding the
